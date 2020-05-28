@@ -9,7 +9,7 @@
 
 :facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
 
-***Currently supports only:***
+***:construction:Currently supports only:***
 
 - [x] __Important Tab__
 - [x] __Announcements Tab__
