@@ -7,7 +7,7 @@
 - **Web Scraping**: A technique to extract data from websites.
 
 
-:facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
+:facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup*** from **[NITP Website](http://www.nitp.ac.in/php/home.php)**
 
 ***:construction:Currently supports only:***
 
