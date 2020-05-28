@@ -21,6 +21,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of
 ```bash
 pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
+
+:round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
+
 ### Change the directory :open_file_folder:
 
 > cd Nitp_webite-scraping
@@ -28,7 +31,7 @@ pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ## Install dependencies
 
 ```bash
-pip install -r requirements. txt
+pip install -r requirements.txt
 ```
 
 ## Run :runner:
