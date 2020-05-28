@@ -1,6 +1,6 @@
 # Nitp_website-scraping
 
-## About
+## :pushpin:About the repo
 
 - **Python**: An easy to learn programming language. It is one of the most used programming languages due to its easiness to learn, as it can be read like the English language.
 - **Beautiful Soup**: Beautiful Soup is a library (a set of pre-writen code) that give us methods to extract data from websites via web scraping
@@ -9,6 +9,7 @@
 
 :facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
 
+
 ## Downloading :arrow_upper_right:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of Nitp_webite-scraping
@@ -16,9 +17,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of
 ```bash
 pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
-### Change the directory
+### Change the directory :open_file_folder:
 
-> cd Nitp_webite-scraping :open_file_folder:
+> cd Nitp_webite-scraping
 
 ## Install dependencies
 
@@ -37,6 +38,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
+## License :oncoming_police_car:
 [MIT](https://github.com/chellarao-chowdary/Nitp_website-scraping/blob/master/LICENSE)
 
