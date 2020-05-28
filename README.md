@@ -16,10 +16,10 @@
 
 ## Downloading :arrow_upper_right:
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of Nitp_webite-scraping
+Use the [git](https://git-scm.com/) to clone script of Nitp_webite-scraping
 
 ```bash
-pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
+git clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
 
 :round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
