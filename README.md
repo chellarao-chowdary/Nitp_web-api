@@ -9,10 +9,10 @@
 
 :facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
 
-Currently supports only:
+***Currently supports only:***
 
-- [x] Important Tab
-- [x] Announcements Tab
+- [x] __Important Tab__
+- [x] __Announcements Tab__
 
 ## Downloading :arrow_upper_right:
 
