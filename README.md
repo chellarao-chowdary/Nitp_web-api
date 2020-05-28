@@ -13,7 +13,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of Nitp_webite-scraping
 
 ```bash
-pip clone 
+pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
 ### Change the directory
 
@@ -22,7 +22,7 @@ pip clone
 ## Install dependencies
 
 ```bash
-**pip install** -r requirements. txt
+pip install -r requirements. txt
 ```
 
 ## Run
@@ -37,5 +37,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/chellarao-chowdary/Nitp_website-scraping/blob/master/LICENSE)
 
