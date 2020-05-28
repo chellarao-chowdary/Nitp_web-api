@@ -6,9 +6,10 @@
 - **Beautiful Soup**: Beautiful Soup is a library (a set of pre-writen code) that give us methods to extract data from websites via web scraping
 - **Web Scraping**: A technique to extract data from websites.
 
-***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
 
-## Downloading
+:facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup***
+
+## Downloading :arrow_upper_right:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to clone script of Nitp_webite-scraping
 
@@ -17,7 +18,7 @@ pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
 ### Change the directory
 
-> cd Nitp_webite-scraping
+> cd Nitp_webite-scraping :open_file_folder:
 
 ## Install dependencies
 
@@ -25,13 +26,13 @@ pip clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 pip install -r requirements. txt
 ```
 
-## Run
+## Run :runner:
 
 ```python
 python scrape.py
 ```
 
-## Contributing
+## Contributing :100:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
