@@ -9,8 +9,9 @@
 
 :facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup*** from **[NITP Website](http://www.nitp.ac.in/php/home.php)**
 
-***:construction:Currently supports only:***
+***:construction:Currently supports:***
 
+- [x] __Events Tab__
 - [x] __Important Tab__
 - [x] __Announcements Tab__
 
