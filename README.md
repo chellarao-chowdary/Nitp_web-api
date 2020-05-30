@@ -14,6 +14,7 @@
 - [x] __Events Tab__
 - [x] __Important Tab__
 - [x] __Announcements Tab__
+- [x] __Blinking__
 
 ## Downloading :arrow_upper_right:
 
