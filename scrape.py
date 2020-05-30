@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import quote
 import time
 
-
+# Gather your ingredients, let's make the soup
 def makingsoup():
 	try:
 		res=requests.get("http://www.nitp.ac.in/php/home.php")
@@ -14,8 +14,7 @@ def makingsoup():
 	
 
 # Announcement Section Tab
-def announcements():
-	soup=makingsoup()
+def announcements(soup):
 	_div = soup.find('div', {'class':'ex1'})
 	z= _div.find_all('a')
 	return collection(z)
@@ -33,26 +32,42 @@ def collection(para):
 	return cool
 
 # Important Section Tab
-def important():
-	soup=makingsoup()
+def important(soup):
 	_div1=soup.find('div',{'class':'ex2'})
 	y=_div1.find_all('a')
 	return collection(y)
 
 
-def events():
-	soup=makingsoup()
+def events(soup):
 	_div2=soup.select('#opi')
 	x=_div2[0].find_all('a')
 	return collection(x)
 
+def blink(soup):
+	_div3=soup.select('.blinking')
+	if len(_div3)!=0:
+		cool1=[]
+		for i in _div3:
+			title= i.text
+			try:
+				link = i.a.get('href')
+			except:
+				link='http://www.nitp.ac.in'
+			if link[0]!='h':
+				link='http://www.nitp.ac.in'+ quote(link[2:])
+			cool1.append({'title':title,'link':link})
+		cool1.reverse()
+		return cool1
+	return False
+
 
 
 def main():
+	soup=makingsoup()
 	notice = announcements()
 	notice1 = important()
 	notice2=events()
-
+	notice3=blink(soup)
 
 	import pickle
 	
@@ -66,6 +81,10 @@ def main():
 		
 	with open('notice_list','wb') as fp:
 		pickle.dump(notice2,fp)
+		
+	if (notice3):
+		with open('blink_list','wb') as fp:
+		pickle.dump(notice3,fp)
 
 # To reuse the stored data from a pickle file
 
@@ -78,7 +97,10 @@ def main():
 		
 	with open ('notice_list','rb') as fp:
 		print(pickle.load(fp))
-
+		
+	with open ('blink_list','rb') as fp:
+		print(pickle.load(fp))
+	
 
 if __name__ == '__main__':
 	main()
