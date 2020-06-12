@@ -48,5 +48,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License :oncoming_police_car:
-[MIT](https://github.com/chellarao-chowdary/Nitp_website-scraping/blob/master/LICENSE)
+[ MIT ](https://github.com/chellarao-chowdary/Nitp_website-scraping/blob/master/LICENSE)
 
