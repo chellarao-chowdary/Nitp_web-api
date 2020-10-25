@@ -32,7 +32,9 @@ Make a request specifying the category of notices you want
 ```
 https://nitp-web-api.vercel.app/news?category={category_name}
 ```
-Example - https://nitp-web-api.vercel.app/news?category=announcements
+Example - https://nitp-web-api.vercel.app/news?category=events
+
+In case of error , please refresh the page.
 
 ### Note:- As the [official website](http://www.nitp.ac.in/php/home.php) is too slow, response may delay and the API is hosted on free service.
 ---
@@ -84,15 +86,7 @@ Install all dependencies listed in *requirements.txt* file
     $ python3 app.py
     ```
 
-:round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
-
----
-
-## Run :runner:
-
-```python
-python scrape.py
-```
+:round_pushpin:In case of WINDOWS, use **pip** and **python**
 
 ---
 ## Apps using this API
