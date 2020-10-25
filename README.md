@@ -1,22 +1,64 @@
-# Nitp_website-scraping
+# Nitp_Web API [Unofficial]
 
 ## :pushpin:About the repo
+---
+This **API** is capable of fetching notices from **[NITP Website](http://www.nitp.ac.in/php/home.php)**
 
-- **Python**: An easy to learn programming language. It is one of the most used programming languages due to its easiness to learn, as it can be read like the English language.
-- **Beautiful Soup**: Beautiful Soup is a library (a set of pre-writen code) that give us methods to extract data from websites via web scraping
-- **Web Scraping**: A technique to extract data from websites.
+---
+### Show some :heart: and :star: the repo to support the project
 
 
-:facepunch: ***Web Scraping*** script written in ***Python*** using ***Beautiful Soup*** from **[NITP Website](http://www.nitp.ac.in/php/home.php)**
+---
+:facepunch: Script written in ***Python*** using ***Beautiful Soup*** and **Flask**
+---
 
-***:construction:Currently supports:***
+##:construction: Categories
 
-- [x] __Events Tab__
-- [x] __Important Tab__
-- [x] __Announcements Tab__
-- [x] __Blinking__
+This API supports category wise. Here is a complete list of all categories.
 
-## Downloading :arrow_upper_right:
+- [x] __all__
+- [x] __events__
+- [x] __important__
+- [x] __announcements__
+- [x] __blink__
+- [x] __archive__
+
+---
+
+## Usage
+
+Make a request specifying the category of notices you want
+```
+```
+Example - 
+
+---
+
+## Response Format
+
+The response JSON Object looks something like this -
+
+```JSON
+{
+	"category": "announcements",
+	"data": [
+		{
+		"link": "http://www.nitp.ac.in/uploads/Walk-in-interviewforProject%20Assistant.pdf",
+		"title": " Walk-in-interview for Project Assistant"
+		},
+		{
+		"link": "http://www.nitp.ac.in/uploads/evaluation-21.10.2020.pdf",
+		"title": " Assessment of students i.r.o July-December,2020"
+		},
+	],
+	"success": true,
+	"total":2
+}
+```
+---
+
+---
+## Setup :arrow_upper_right:
 
 Use the [git](https://git-scm.com/) to clone script of Nitp_webite-scraping
 
@@ -24,17 +66,25 @@ Use the [git](https://git-scm.com/) to clone script of Nitp_webite-scraping
 git clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
 ```
 
-:round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
-
-### Change the directory :open_file_folder:
-
-> cd Nitp_webite-scraping
-
 ## Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
+Install all dependencies listed in *requirements.txt* file
+
+1. To install all dependencies run - 
+
+    ```bash
+    $ sudo -H pip3 install -r requirements.txt
+    ```
+
+2. Start the server
+
+    ```bash 
+    $ python app.py
+    ```
+
+:round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
+
+---
 
 ## Run :runner:
 
@@ -42,10 +92,22 @@ pip install -r requirements.txt
 python scrape.py
 ```
 
+---
+## Apps using this API
+#### [Telegram Channel](https://telegram.dog/NITP_news) of  NITP Web
+[![Telegram](https://img.shields.io/badge/Telegram-Channel-orange)](https://t.me/NITP_news)
+
+---
+
+### You can fork the repo and deploy on VPS, Heroku or Vercel :)  
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/chellarao-chowdary/Nitp_web-api/tree/master)
+
+---
+#### :star: the Repo in case you liked it :)
+#### Made with :heart: in India
+
 ## Contributing :100:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-## License :oncoming_police_car:
-[license](https://github.com/chellarao-chowdary/Nitp_website-scraping/blob/master/LICENSE)
+# © [Chellarao Chowdary](https://myselfchowdary.me)

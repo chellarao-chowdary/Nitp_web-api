@@ -1,1 +1,1 @@
-worker: python3 scrape.py
+web: gunicorn app:app --log-file=-
