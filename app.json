@@ -1,0 +1,12 @@
+{
+	"name": "NITP_web-API",
+	"description": "Unofficial API of NITP Web",
+	"keywords": [
+		"flask",
+		"python",
+		"news",
+		"api"
+	],
+	"success_url": "https://t.me/NITP_news",
+	"repository": "https://github.com/chellarao-chowdary/Nitp_web-api"
+}

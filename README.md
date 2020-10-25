@@ -1,18 +1,19 @@
 # Nitp_Web API [Unofficial]
 
-## :pushpin:About the repo
 ---
 This **API** is capable of fetching notices from **[NITP Website](http://www.nitp.ac.in/php/home.php)**
 
 ---
 ### Show some :heart: and :star: the repo to support the project
 
-
+Thank You:)
 ---
+
 :facepunch: Script written in ***Python*** using ***Beautiful Soup*** and **Flask**
+
 ---
 
-##:construction: Categories
+:construction: Categories
 
 This API supports category wise. Here is a complete list of all categories.
 
@@ -29,9 +30,11 @@ This API supports category wise. Here is a complete list of all categories.
 
 Make a request specifying the category of notices you want
 ```
+https://nitp-web-api.vercel.app/news?category={category_name}
 ```
-Example - 
+Example - https://nitp-web-api.vercel.app/news?category=announcements
 
+### Note:- As the [official website](http://www.nitp.ac.in/php/home.php) is too slow, response may delay and the API is hosted on free service.
 ---
 
 ## Response Format
@@ -55,7 +58,6 @@ The response JSON Object looks something like this -
 	"total":2
 }
 ```
----
 
 ---
 ## Setup :arrow_upper_right:
@@ -63,7 +65,7 @@ The response JSON Object looks something like this -
 Use the [git](https://git-scm.com/) to clone script of Nitp_webite-scraping
 
 ```bash
-git clone https://github.com/chellarao-chowdary/Nitp_website-scraping.git
+git clone https://github.com/chellarao-chowdary/Nitp_web-api.git
 ```
 
 ## Install dependencies
@@ -79,7 +81,7 @@ Install all dependencies listed in *requirements.txt* file
 2. Start the server
 
     ```bash 
-    $ python app.py
+    $ python3 app.py
     ```
 
 :round_pushpin:In case of MAC OS or Linux OS, use **pip3** and **python3**
@@ -100,6 +102,8 @@ python scrape.py
 ---
 
 ### You can fork the repo and deploy on VPS, Heroku or Vercel :)  
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chellarao-chowdary/Nitp_web-api/tree/master)
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/chellarao-chowdary/Nitp_web-api/tree/master)
 
