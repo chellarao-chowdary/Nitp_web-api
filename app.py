@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-	return 'NITP Website API is UP! <br><br> <strong> Made with love in  \U0001F1EE\U0001F1F3 by <a href="https://github.com/chellarao-chowdary/">Chellarao Chowdary</a>'
+	return 'NITP Website API is UP! <br> <br> Read Documentation <a href="https://github.com/chellarao-chowdary/Nitp_web-api#usage"> here </a> <br><br> <strong> Made with ❤️ in  \U0001F1EE\U0001F1F3 by <a href="https://github.com/chellarao-chowdary/">Chellarao Chowdary</a>'
 
 
 @app.route('/news')
