@@ -34,7 +34,7 @@ https://nitp-web-api.vercel.app/news?category={category_name}
 ```
 Example - https://nitp-web-api.vercel.app/news?category=events
 
-In case of error , please refresh the page.
+#### In case of error , please refresh the page.
 
 ### Note:- As the [official website](http://www.nitp.ac.in/php/home.php) is too slow, response may delay and the API is hosted on free service.
 ---
